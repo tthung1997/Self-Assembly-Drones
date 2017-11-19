@@ -7,6 +7,7 @@ import repast.simphony.engine.environment.RunEnvironment;
 import repast.simphony.parameter.Parameters;
 import repast.simphony.space.grid.Grid;
 import repast.simphony.space.grid.GridBuilderParameters;
+import repast.simphony.space.grid.GridPoint;
 import repast.simphony.space.grid.RandomGridAdder;
 import repast.simphony.space.grid.StrictBorders;
 
@@ -24,23 +25,29 @@ public class DroneContextBuilder implements ContextBuilder {
 	public Context build(Context context) {
 		Parameters p = RunEnvironment.getInstance().getParameters();
 		
-		int gridWidth = 100;
-		int gridHeight = 100;
+		int gridWidth = (Integer)p.getValue("gridWidth");
+		int gridHeight = gridWidth;
 		int initialDrones = (Integer)p.getValue("initialDrones");
 		
 		GridFactoryFinder.createGridFactory(null).createGrid("Grid",
 				context, GridBuilderParameters.singleOccupancy2D(new RandomGridAdder(),
 						new StrictBorders(), gridWidth, gridHeight));
 		
-		for(int i = 0; i < initialDrones; i++){
-			context.add(new Drone());
-		}
-		
-		for(int y = 0; y < 40; y++) {
-			Flag flag = new Flag(0, y);
+		for(int y = 0; y < initialDrones; y++) {
+//			Flag flag = new Flag(0, y);
+//			context.add(flag);
+//			Grid grid = (Grid)context.getProjection("Grid");
+//			grid.moveTo(flag, 0, y);
+			Flag flag = new Flag();
 			context.add(flag);
 			Grid grid = (Grid)context.getProjection("Grid");
-			grid.moveTo(flag, 0, y);
+			GridPoint pt = grid.getLocation(flag);
+			flag.setX(pt.getX());
+			flag.setY(pt.getY());
+		}
+		
+		for(int i = 0; i < initialDrones; i++){
+			context.add(new Drone(gridWidth, gridHeight));
 		}
 		
 		return context;

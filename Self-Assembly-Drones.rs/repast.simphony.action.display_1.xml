@@ -4,7 +4,7 @@
   <styles>
     <entry>
       <string>SelfAssemblyDrones.Flag</string>
-      <string>repast.simphony.visualizationOGL2D.DefaultStyleOGL2D</string>
+      <string>repast.simphony.visualization.editedStyle.EditedStyle2D</string>
     </entry>
     <entry>
       <string>SelfAssemblyDrones.Drone</string>
@@ -14,7 +14,7 @@
   <editedStyles>
     <entry>
       <string>SelfAssemblyDrones.Flag</string>
-      <null/>
+      <string>SelfAssemblyDrones.Flag.style_7.xml</string>
     </entry>
     <entry>
       <string>SelfAssemblyDrones.Drone</string>
@@ -31,7 +31,7 @@
     <pType>LAST</pType>
     <duration>-1.0</duration>
     <frequency>REPEAT</frequency>
-    <hashCode>1280201648</hashCode>
+    <hashCode>-1658955276</hashCode>
   </schedParams>
   <layoutClassName>foo.bar.baz</layoutClassName>
   <layoutProjection>Grid</layoutProjection>
@@ -67,7 +67,7 @@
             <map>
               <entry>
                 <string>COLOR</string>
-                <int>-1</int>
+                <int>-16777216</int>
               </entry>
               <entry>
                 <string>UNIT_SIZE</string>
