@@ -6,25 +6,25 @@
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
-				<parameter name="initialDrones" displayName="Initial Drones" type="int" 
-						defaultValue="100" 
+				<parameter name="gridSize" displayName="Grid Size" type="int" 
+						defaultValue="50" 
+						isReadOnly="true" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="noise" displayName="Noise Level (0/10/20/30/40/50)" type="int" 
+						defaultValue="0" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
-				<parameter name="sharingType" displayName="Map Sharing Strategy" type="int" 
-						defaultValue="1" 
+				<parameter name="sharingType" displayName="Map Sharing Strategy (0/1/2/3)" type="int" 
+						defaultValue="0" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
-				<parameter name="gridWidth" displayName="Grid Width" type="int" 
-						defaultValue="100" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
-									
-		/>
-				<parameter name="edgeOfComm" displayName="Edge of Communication Square" type="int" 
+				<parameter name="edgeOfComm" displayName="Edge of Communicating Square (odd integers from 5)" type="int" 
 						defaultValue="5" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
