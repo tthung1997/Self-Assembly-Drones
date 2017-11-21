@@ -1,3 +1,1 @@
-<?xml version="1.0"?>
-<sweep runs="1">
-</sweep>
+<?xml version="1.0" ?><sweep runs="1"><parameter name="gridSize" type="constant" constant_type="int" value="50"></parameter><parameter name="shapeType" type="number" number_type="int" start="0" end="5" step="1"><parameter name="noise" type="number" number_type="int" start="0" end="50" step="10"><parameter name="sharingType" type="number" number_type="int" start="0" end="3" step="1"><parameter name="edgeOfComm" type="number" number_type="int" start="5" end="13" step="4"></parameter></parameter></parameter></parameter></sweep>

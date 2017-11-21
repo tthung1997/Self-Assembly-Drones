@@ -1,0 +1,14 @@
+Error while creating FileDataSink. DataSet 'Flag Count' not found
+java.lang.NullPointerException
+	at repast.simphony.data2.engine.FileSinkComponentControllerAction.batchInitialize(FileSinkComponentControllerAction.java:90)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:192)
+	at repast.simphony.engine.controller.DefaultController$1.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:190)
+	at repast.simphony.engine.controller.DefaultController.batchInitialize(DefaultController.java:349)
+	at repast.simphony.batch.OneRunBatchRunner.batchInit(OneRunBatchRunner.java:89)
+	at repast.simphony.batch.InstanceRunner.run(InstanceRunner.java:185)
+	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:217)
