@@ -28,7 +28,7 @@ public class DroneContextBuilder implements ContextBuilder {
 		Parameters p = RunEnvironment.getInstance().getParameters();
 		
 		int gridSize = (Integer)p.getValue("gridSize");
-		int shapeType = (Integer)p.getValue("shapeType");
+		int shapeType = modifiedShapeType((Integer)p.getValue("shapeType"));
 		
 		GridFactoryFinder.createGridFactory(null).createGrid("Grid",
 				context, GridBuilderParameters.singleOccupancy2D(new RandomGridAdder(),
@@ -65,6 +65,18 @@ public class DroneContextBuilder implements ContextBuilder {
 	}
 	
 	/**
+	 * Modify the shape type so that it is an integer between
+	 * 0 and 5.
+	 * @param value
+	 * @return modified shapeType
+	 */
+	private int modifiedShapeType(int value) {
+		int result = Math.min(5, value);
+		result = Math.max(result, 0);
+		return result;
+	}
+	
+	/**
 	 * Retrieve the appropriate shape for the environment
 	 * 
 	 * @param type
@@ -72,7 +84,7 @@ public class DroneContextBuilder implements ContextBuilder {
 	 * @return
 	 * @throws FileNotFoundException
 	 */
-	public boolean[][] getShape(int type, int gridSize) throws FileNotFoundException {
+	private boolean[][] getShape(int type, int gridSize) throws FileNotFoundException {
 		boolean[][] shape = new boolean[gridSize][gridSize];
 		int xL, xR, yL, yH;
 		Scanner scnr;

@@ -44,9 +44,10 @@ public class Drone {
 	
 	public Drone(int gridSize) {
 		Parameters p = RunEnvironment.getInstance().getParameters();
-		edgeOfComm = (Integer)p.getValue("edgeOfComm");
-		sharingType = (Integer)p.getValue("sharingType");
-		noise = (Integer)p.getValue("noise");
+		//modify the input value so that it meets the program's constraint
+		edgeOfComm = modifiedEdgeOfComm((Integer)p.getValue("edgeOfComm"));
+		sharingType = modifiedSharingType((Integer)p.getValue("sharingType"));
+		noise = modifiedNoise((Integer)p.getValue("noise"));
 		this.gridSize = gridSize;
 		ownMap = new int[gridSize][gridSize];
 		othersMap = new int[gridSize][gridSize][4];
@@ -466,6 +467,47 @@ public class Drone {
 				result[x][y] = rnd < result[x][y] ? rnd : rnd + 1;
 			}
 		}
+		return result;
+	}
+	
+	/**
+	 * Modify the input edge of communication so that:
+	 * 1. The minimum is 5
+	 * 2. The maximum is 49
+	 * 3. It has to be an odd integer
+	 * @param value
+	 * @return modified edgeOfComm
+	 */
+	private int modifiedEdgeOfComm(int value) {
+		int result = Math.max(value, 5);
+		result = Math.min(result, 49);
+		if (result % 2 == 0) {
+			result--;
+		}
+		return result;
+	}
+	
+	/**
+	 * Modify the sharing type so that it should be an 
+	 * integer from 0 to 3.
+	 * @param value
+	 * @return modified sharingType
+	 */
+	private int modifiedSharingType(int value) {
+		int result = Math.min(value, 3);
+		result = Math.max(result, 0);
+		return result;
+	}
+	
+	/**
+	 * Modify the noise level so that it does not exceed
+	 * 100 and does not go below 0.
+	 * @param value
+	 * @return modified noise
+	 */
+	private int modifiedNoise(int value) {
+		int result = Math.min(value, 100);
+		result = Math.max(result, 0);
 		return result;
 	}
 	
