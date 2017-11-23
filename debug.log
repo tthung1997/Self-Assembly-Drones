@@ -150,3 +150,211 @@ INFO  [SwingWorker-pool-2-thread-1] 2017-11-21 21:51:12,561 repast.simphony.batc
 INFO  [SwingWorker-pool-2-thread-1] 2017-11-21 21:51:12,575 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into S:/UNL/FALL2017/CSCE475/workspace/Self-Assembly-Drones/output
 INFO  [SwingWorker-pool-2-thread-1] 2017-11-21 21:51:12,639 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0019
 INFO  [SwingWorker-pool-2-thread-1] 2017-11-21 21:51:12,639 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 69.0501
+INFO  [AWT-EventQueue-0] 2017-11-22 12:35:42,242 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: S:\UNL\FALL2017\CSCE475\workspace\Self-Assembly-Drones\output\config.props
+INFO  [AWT-EventQueue-0] 2017-11-22 12:35:42,421 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	S:\UNL\FALL2017\CSCE475\workspace\Self-Assembly-Drones\batch\batch_params.xml to
+	C:\Users\TRIEUH~1\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 12:35:50,355 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\TRIEUH~1\AppData\Local\Temp\TRIEU HUNG_localhost5001968397058181152.zip to 
+C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 ...
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 12:35:50,385 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 12:35:50,386 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0366
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 12:35:50,386 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186\TRIEU HUNG_localhost5001968397058181152.zip
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 12:35:50,853 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2017-11-22 12:36:50,862 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:37:50,862 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:38:50,862 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:39:50,863 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:40:50,863 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:41:50,864 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:42:50,864 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:43:50,865 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:44:50,866 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:45:50,866 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:46:50,867 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:47:50,867 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:48:50,867 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:49:50,868 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:50:50,868 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:51:50,869 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:52:50,869 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:53:50,870 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:54:50,871 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:55:50,871 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:56:50,872 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:57:50,872 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:58:50,873 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 12:59:50,874 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:00:50,874 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:01:50,875 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:02:50,875 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:03:50,876 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:04:50,876 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:05:50,876 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:06:50,877 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:07:50,877 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:08:50,878 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:09:50,878 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:10:50,879 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:11:50,879 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:12:50,880 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:13:50,880 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:14:50,880 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:15:50,881 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:16:50,881 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:17:50,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:18:50,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:19:50,883 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:20:50,883 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:21:50,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:22:50,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:23:50,885 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:24:50,885 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:25:50,886 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:26:50,886 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:27:50,887 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:28:50,887 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:29:50,888 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:30:50,888 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:31:50,889 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:32:50,889 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:33:50,890 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:34:50,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:35:50,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:36:50,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:37:50,892 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:38:50,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:39:50,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 13:40:50,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 13:40:50,894 repast.simphony.batch.ssh.SessionsDriver - Run Time: 65.0085
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 13:40:50,930 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511375748186
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 13:40:50,944 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into S:/UNL/FALL2017/CSCE475/workspace/Self-Assembly-Drones/output
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 13:40:50,982 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0014
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 13:40:50,982 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 65.0467
+INFO  [AWT-EventQueue-0] 2017-11-22 15:10:36,810 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: S:\UNL\FALL2017\CSCE475\workspace\Self-Assembly-Drones\output\config.props
+INFO  [AWT-EventQueue-0] 2017-11-22 15:10:36,991 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	S:\UNL\FALL2017\CSCE475\workspace\Self-Assembly-Drones\batch\batch_params.xml to
+	C:\Users\TRIEUH~1\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 15:10:44,303 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\TRIEUH~1\AppData\Local\Temp\TRIEU HUNG_localhost3716538893623658937.zip to 
+C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 ...
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 15:10:44,333 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 15:10:44,334 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0399
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 15:10:44,334 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940\TRIEU HUNG_localhost3716538893623658937.zip
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 15:10:44,808 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2017-11-22 15:11:44,828 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:12:44,830 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:13:44,838 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:14:44,841 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:15:44,846 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:16:44,850 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:17:44,851 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:18:44,860 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:19:44,866 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:20:44,866 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:21:44,866 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:22:44,867 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:23:44,867 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:24:44,870 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:25:44,870 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:26:44,870 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:27:44,871 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:28:44,872 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:29:44,877 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:30:44,878 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:31:44,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:32:44,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:33:44,883 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:34:44,883 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:35:44,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:36:44,887 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:37:44,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:38:44,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:39:44,892 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:40:44,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:41:44,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 15:42:44,894 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511385041940 for DONE:  no
+INFO  [AWT-EventQueue-0] 2017-11-22 20:29:53,642 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: S:\UNL\FALL2017\CSCE475\workspace\Self-Assembly-Drones\output\config.props
+INFO  [AWT-EventQueue-0] 2017-11-22 20:29:53,812 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	S:\UNL\FALL2017\CSCE475\workspace\Self-Assembly-Drones\batch\batch_params.xml to
+	C:\Users\TRIEUH~1\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 20:30:01,345 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\TRIEUH~1\AppData\Local\Temp\TRIEU HUNG_localhost3906695422039908549.zip to 
+C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 ...
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 20:30:01,376 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 20:30:01,377 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0408
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 20:30:01,377 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928\TRIEU HUNG_localhost3906695422039908549.zip
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 20:30:01,843 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2017-11-22 20:31:01,849 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:32:01,849 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:33:01,850 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:34:01,850 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:35:01,850 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:36:01,850 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:37:01,851 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:38:01,852 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:39:01,852 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:40:01,852 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:41:01,857 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:42:01,860 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:43:01,861 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:44:01,863 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:45:01,871 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:46:01,874 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:47:01,874 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:48:01,875 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:49:01,875 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:50:01,875 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:51:01,876 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:52:01,876 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:53:01,877 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:54:01,877 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:55:01,878 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:56:01,879 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:57:01,881 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:58:01,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 20:59:01,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:00:01,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:01:01,882 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:02:01,883 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:03:01,883 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:04:01,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:05:01,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:06:01,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:07:01,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:08:01,884 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:09:01,885 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:10:01,885 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:11:01,885 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:12:01,885 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:13:01,886 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:14:01,886 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:15:01,886 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:16:01,886 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:17:01,887 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:18:01,887 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:19:01,889 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:20:01,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:21:01,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:22:01,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:23:01,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:24:01,891 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:25:01,892 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:26:01,892 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:27:01,892 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:28:01,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:29:01,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:30:01,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:31:01,893 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:32:01,894 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:33:01,894 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:34:01,894 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:35:01,894 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:36:01,895 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:37:01,895 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  no
+INFO  [pool-3-thread-1] 2017-11-22 21:38:01,895 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 21:38:01,896 repast.simphony.batch.ssh.SessionsDriver - Run Time: 68.0087
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 21:38:01,923 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\TRIEUH~1\AppData\Local\Temp\simphony_model_1511404198928
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 21:38:01,935 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into S:/UNL/FALL2017/CSCE475/workspace/Self-Assembly-Drones/output
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 21:38:01,973 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0013
+INFO  [SwingWorker-pool-2-thread-1] 2017-11-22 21:38:01,974 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 68.0510
