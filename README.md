@@ -2,9 +2,11 @@
 Given a 2-dimensional drawing represented by a matrix of pixels, this program simulates a group of autonomous drones assembling themselves to replicate the provided drawing  as quickly as possible.
 
 ## PREREQUISITES
-This program needs the newest version of Java (1.8 or above) installed before. You can get the newest version of Java [here](https://java.com/en/download/)
+* This program needs the newest version of Java (1.8 or above) installed before. You can get the newest version of Java [here](https://java.com/en/download/).
+* Please read [Repast Documentation](https://repast.github.io/docs.html) and follow the instructions to download Repast [here](https://repast.github.io/download.html) first.
+* Import and export the project as an executable .jar file (usually named setup.jar), then follow the instruction below.
 
-## INSTALLING
+## INSTALL INSTRUCTION AFTER EXPORTED VIA ECLIPSE
 You can install the program by double click on file setup.jar or use the following command in Linux terminal of the current directory: 
 ```
 java -jar setup.jar
